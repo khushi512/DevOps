@@ -1,0 +1,112 @@
+    PID TTY          TIME CMD
+   3708 ?        00:00:00 systemd
+   3713 ?        00:00:00 (sd-pam)
+   3731 ?        00:00:00 pipewire
+   3732 ?        00:00:00 pipewire
+   3736 ?        00:00:02 wireplumber
+   3738 ?        00:00:01 pipewire-pulse
+   3740 ?        00:00:00 gnome-keyring-d
+   3749 ?        00:00:01 dbus-daemon
+   3793 ?        00:00:00 xdg-document-po
+   3797 ?        00:00:00 xdg-permission-
+   3931 ?        00:00:00 gcr-ssh-agent
+   3932 ?        00:00:00 gnome-session-c
+   3946 ?        00:00:00 gvfsd
+   3954 ?        00:00:00 gvfsd-fuse
+   3957 ?        00:00:00 gnome-session-b
+   3989 ?        00:00:00 at-spi-bus-laun
+   4001 ?        00:00:00 dbus-daemon
+   4002 ?        00:05:55 gnome-shell
+   4079 ?        00:00:00 at-spi2-registr
+   4098 ?        00:00:00 gnome-shell-cal
+   4106 ?        00:00:00 evolution-sourc
+   4118 ?        00:00:00 gjs
+   4135 ?        00:00:13 ibus-daemon
+   4137 ?        00:00:00 gsd-a11y-settin
+   4139 ?        00:00:00 gsd-color
+   4143 ?        00:00:00 gsd-datetime
+   4145 ?        00:00:00 gsd-housekeepin
+   4148 ?        00:00:00 gsd-keyboard
+   4150 ?        00:00:01 gsd-media-keys
+   4157 ?        00:00:01 gsd-power
+   4159 ?        00:00:00 gsd-print-notif
+   4163 ?        00:00:00 gsd-rfkill
+   4166 ?        00:00:00 gsd-screensaver
+   4170 ?        00:00:00 gsd-sharing
+   4171 ?        00:00:00 gsd-smartcard
+   4177 ?        00:00:00 gsd-sound
+   4178 ?        00:00:00 gsd-wacom
+   4196 ?        00:00:00 gsd-disk-utilit
+   4201 ?        00:00:00 gvfs-udisks2-vo
+   4214 ?        00:00:00 evolution-alarm
+   4267 ?        00:00:00 ibus-memconf
+   4270 ?        00:00:04 ibus-extension-
+   4280 ?        00:00:00 ibus-portal
+   4285 ?        00:00:00 goa-daemon
+   4347 ?        00:00:00 evolution-calen
+   4349 ?        00:00:00 goa-identity-se
+   4363 ?        00:00:00 gvfs-goa-volume
+   4377 ?        00:00:00 gvfs-gphoto2-vo
+   4384 ?        00:00:00 gvfs-mtp-volume
+   4391 ?        00:00:00 evolution-addre
+   4396 ?        00:00:00 gvfs-afc-volume
+   4425 ?        00:00:04 ibus-engine-sim
+   4448 ?        00:00:00 dconf-service
+   4457 ?        00:00:00 gvfsd-trash
+   4478 ?        00:00:00 xdg-desktop-por
+   4503 ?        00:00:00 gjs
+   4521 ?        00:00:00 gsd-printer
+   4522 ?        00:00:01 tracker-miner-f
+   4526 ?        00:00:00 xdg-desktop-por
+   4551 ?        00:00:00 xdg-desktop-por
+   4569 ?        00:00:01 gjs
+   4640 ?        00:00:00 snapd-desktop-i
+   4651 ?        00:00:00 gvfsd-metadata
+   4718 ?        00:00:00 snapd-desktop-i
+   4756 ?        00:11:40 firefox
+   4836 ?        00:00:00 crashhelper
+   4979 ?        00:00:00 forkserver
+   4983 ?        00:00:01 Socket Process
+   5006 ?        00:00:09 Privileged Cont
+   5017 ?        00:00:03 RDD Process
+   5062 ?        00:00:00 snap
+   5223 ?        00:00:01 WebExtensions
+   5565 ?        00:00:02 Utility Process
+   5718 ?        00:06:05 Isolated Web Co
+   5973 ?        00:00:18 code
+   5975 ?        00:00:00 code
+   5976 ?        00:00:00 code
+   6001 ?        00:00:00 chrome_crashpad
+   6004 ?        00:00:14 Xwayland
+   6022 ?        00:00:00 gsd-xsettings
+   6057 ?        00:00:00 ibus-x11
+   6063 ?        00:00:01 mutter-x11-fram
+   6133 ?        00:00:01 code
+   6182 ?        00:01:26 code
+   6215 ?        00:00:22 code
+   6245 ?        00:00:16 code
+   6256 ?        00:00:03 code
+   6257 ?        00:00:02 code
+   6341 ?        00:00:00 code
+   6428 ?        00:00:00 gvfsd-http
+   6865 ?        00:00:00 update-notifier
+   6964 ?        00:02:32 Isolated Web Co
+   7167 ?        00:00:23 Isolated Web Co
+   7320 ?        00:00:17 Isolated Web Co
+   7689 ?        00:00:22 gnome-terminal-
+   7983 ?        00:00:00 bash
+   7995 ?        00:00:00 bash
+   7996 ?        00:00:00 bash
+   7997 ?        00:00:00 bash
+   8069 ?        00:00:00 bash
+   8070 ?        00:00:00 bash
+   8379 ?        00:00:00 gvfsd-recent
+   8953 ?        00:00:49 Isolated Web Co
+   9039 ?        00:00:03 Isolated Servic
+   9320 ?        00:00:50 Isolated Web Co
+   9640 ?        00:00:01 Isolated Servic
+  10032 ?        00:00:06 MainThread
+  10191 ?        00:00:00 Web Content
+  10237 ?        00:00:00 Web Content
+  10499 ?        00:00:00 Web Content
+  10626 ?        00:00:00 ps
