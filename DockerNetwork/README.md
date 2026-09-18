@@ -192,10 +192,8 @@ After refreshing the browser **without restarting the container**, the updated c
 
 ### Screenshots
 
-> Initial `Hello students` page
 ![alt text](screenshots/image.png)
 
-> Updated page showing the modified content
 ![alt text](screenshots/image2.png)
 ---
 
