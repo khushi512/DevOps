@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: node-metrics-agent
+spec:
+  selector:
+    matchLabels:
+      app: node-metrics-agent
+  template:
+    metadata:
+      labels:
+        app: node-metrics-agent
+    spec:
+      containers:
+        - name: agent
+          image: nginx:1.29-alpine
+          ports:
+            - containerPort: 80

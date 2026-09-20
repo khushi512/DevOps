@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: campus-backend-rs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: workloads-backend
+  template:
+    metadata:
+      labels:
+        app: workloads-backend
+    spec:
+      containers:
+        - name: backend
+          image: nginx:1.29-alpine
+          ports:
+            - containerPort: 80

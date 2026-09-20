@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: workloads-backend
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: workloads-deployment
+  template:
+    metadata:
+      labels:
+        app: workloads-deployment
+        version: v2
+    spec:
+      containers:
+        - name: backend
+          image: nginx:1.29-alpine
+          ports:
+            - containerPort: 80

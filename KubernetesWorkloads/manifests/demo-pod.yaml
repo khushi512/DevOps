@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: campus-demo-pod
+  labels:
+    app: campus-demo
+spec:
+  containers:
+    - name: demo
+      image: nginx:1.29-alpine
+      ports:
+        - containerPort: 80
