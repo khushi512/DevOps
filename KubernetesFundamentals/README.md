@@ -25,6 +25,7 @@ kubectl get namespaces
 ```
 
 **Screenshot:** 
+
 ![alt text](screenshots/cluster-info.png)
 
 ---
@@ -49,6 +50,7 @@ kubectl get pods -n kube-system -o wide
 | containerd              | Container runtime                       |
 
 **Screenshot:** 
+
 ![alt text](screenshots/kube-system-pods.png)
 
 ---
@@ -62,6 +64,7 @@ kubectl describe node minikube
 The node provides information about CPU, memory, storage, Pod capacity, operating system, container runtime, and node conditions.
 
 **Screenshot:** 
+
 ![alt text](screenshots/node-capacity.png)
 ---
 
@@ -83,6 +86,7 @@ kubectl logs hello-web
 ```
 
 **Screenshot:** 
+
 ![alt text](screenshots/first-pod.png)
 
 ---
@@ -100,6 +104,7 @@ kubectl get pods -A
 This demonstrates that the same resource name can exist in different namespaces.
 
 **Screenshot:** 
+
 ![alt text](screenshots/namespaces.png)
 
 ---
@@ -119,6 +124,7 @@ kubectl explain pod.spec.containers.image
 ```
 
 **Screenshot:**
+
 ![alt text](screenshots/command-exploration.png)
 ---
 
