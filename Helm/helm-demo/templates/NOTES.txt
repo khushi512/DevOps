@@ -1,0 +1,12 @@
+Nginx has been deployed successfully!
+
+Check deployment status:
+  kubectl get deployments
+
+Check pods:
+  kubectl get pods
+
+Access the service locally:
+  kubectl port-forward service/{{ include "helm-demo.fullname" . }} 8080:80
+
+Then open http://localhost:8080
