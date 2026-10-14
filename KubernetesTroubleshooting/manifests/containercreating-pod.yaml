@@ -1,0 +1,11 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: troubleshooting-containercreating
+  labels:
+    app: troubleshooting-containercreating
+spec:
+  containers:
+    - name: app-container
+      image: nginx:no-such-tag-cc999

@@ -1,0 +1,25 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: troubleshooting-config
+  labels:
+    app: troubleshooting-config
+spec:
+  containers:
+    - name: config-test
+      image: busybox:1.36
+      env:
+        - name: APP_MODE
+          value: "development"
+      command:
+        - sh
+        - -c
+        - |
+          if [ -z "$APP_MODE" ]; then
+            echo "ERROR: APP_MODE is not configured"
+            exit 1
+          fi
+          echo "Application started in $APP_MODE mode"
+          sleep 3600
+      restartPolicy: Always
